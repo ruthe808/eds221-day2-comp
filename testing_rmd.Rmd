@@ -1,0 +1,20 @@
+---
+title: "Rmd test"
+author: "Ruth Enriquez"
+date: "2022-08-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+my_list <- list(cats =c(1, 2, 3),
+                dogs = c(10, 11, 12))
+```
+The second value of dog is 'r my_list$dog[2]'
+```{r}
+
+```
+
